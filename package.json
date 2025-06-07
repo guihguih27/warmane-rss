@@ -1,0 +1,13 @@
+{
+  "name": "warmane-rss",
+  "version": "1.0.0",
+  "description": "Função Netlify para RSS Warmane",
+  "main": "netlify/functions/rss.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.6.7"
+  }
+}
